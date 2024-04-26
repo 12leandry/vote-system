@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "762c5b6051da8a4e437ca99e8fd14a71",
     "packages": [
+        {
+            "name": "blessdarah/php-campay",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blessdarah/php-campay.git",
+                "reference": "978e7c666e59c0aa609de993f299558068dc9c5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blessdarah/php-campay/zipball/978e7c666e59c0aa609de993f299558068dc9c5f",
+                "reference": "978e7c666e59c0aa609de993f299558068dc9c5f",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "nesbot/carbon": "^2.62",
+                "vlucas/phpdotenv": "^5.4"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.22"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BlessDarah\\PhpCampay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bless Darah",
+                    "email": "blessdarahuba@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "PHP package wrapper for campay momo integration",
+            "support": {
+                "issues": "https://github.com/blessdarah/php-campay/issues",
+                "source": "https://github.com/blessdarah/php-campay/tree/main"
+            },
+            "time": "2023-09-14T13:12:12+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -8127,7 +8174,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "blessdarah/php-campay": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
